@@ -1,0 +1,25 @@
+{
+  "name": "roi-ui-playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-spacex-wiki": "npx playwright test --project=chromium-spacex-wiki",
+    "test-spacex-api": "newman run ./source/api/Spacex.postman_collection.json --reporters=cli,htmlextra --reporter-htmlextra-export \"./test_result/spacex_api.html\""
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.17.2",
+    "playwright": "^1.17.2"
+  },
+  "dependencies": {
+    "newman": "^5.3.2",
+    "newman-reporter-htmlextra": "^1.22.9"
+  }
+}

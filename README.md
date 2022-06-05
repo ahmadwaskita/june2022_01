@@ -41,4 +41,4 @@ View test report
 -
 The test report for `test-spacex-wiki` will be generated on directory `playwright-report` with filename `index.html`
 
-The test report for `test-spacex-api` will be generated on directory `test_result` with filename `spaces_api.html`
+The test report for `test-spacex-api` will be generated on directory `test_result` with filename `spacex_api.html`

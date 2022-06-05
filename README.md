@@ -42,3 +42,18 @@ View test report
 The test report for `test-spacex-wiki` will be generated on directory `playwright-report` with filename `index.html`
 
 The test report for `test-spacex-api` will be generated on directory `test_result` with filename `spacex_api.html`
+
+Gherkin testcase for WhatsApp desktop
+-
+The gherkin testcase file can be found on directory `source/feature` and it contains 10 files:
+
+    > 01.chat.feature
+    > 02.notification.feature
+    > 03.photos.feature
+    > 04.documents.feature
+    > 05.group_chat.feature
+    > 06.starred_message.feature
+    > 07.voice_call.feature
+    > 08.video_call.feature
+    > 09.voice_messge.feature
+    > 10.status_updates.feature

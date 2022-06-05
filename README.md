@@ -4,6 +4,7 @@ This repository contain test for the following :
 
  - API Testing
  - Spacex Wiki Testing
+ - Gherkin testcase for WhatsApp desktop
 
 Setup Environment
 -     
